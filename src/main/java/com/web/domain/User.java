@@ -35,7 +35,7 @@ public class User implements Serializable {
     private String email;
 
     @Column
-    private String pincipal;    //OAuth2 인증으로 제공받은 키값
+    private String pincipal;    //OAuth2 인증으로 제공받은 키 값
 
     @Column
     @Enumerated(EnumType.STRING)
